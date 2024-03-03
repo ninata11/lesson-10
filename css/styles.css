@@ -8,7 +8,6 @@
 }
 body {
   background-color: #0a22f4;
-
   max-width: 1920px;
   width: 100%;
   margin: auto;
@@ -136,7 +135,6 @@ button {
 }
 .footer-container div {
   display: flex;
-
   align-items: center;
   gap: 10px;
 }

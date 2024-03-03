@@ -19,30 +19,39 @@
             ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
           </p>
           <div class="map"></div>
-          >
-
-          <a href="tel:+995 555 444 333"> +995 555 444 333</a>
-          <a href="mailto:example@gmail.com"> example@gmail.com</a>
+          <div class="last-contact">
+            <div class="box"><img src="css/images/tel.png" alt="tel" /></div>
+            <a href="tel:+995 555 444 333"> +995 555 444 333</a>
+            <div class="box"><img src="css/images/mail.png" alt="mail" /></div>
+            <a href="mailto:example@gmail.com"> example@gmail.com</a>
+          </div>
         </div>
         <div class="information">
           <form action="#">
-            <div>
+            <div class="form-row">
               <label for="user-info">სახელი,გვარი</label>
               <input type="text" name="" id="user-info" required />
             </div>
-            <div>
+            <div class="form-row">
               <label for="user-mail">ელ.ფოსტა</label>
               <input type="email" name="" id="user-mail" required />
             </div>
-            <div>
+            <div class="form-row">
               <label for="phone">ტელეფონის ნომერი</label>
               <input type="tel" name="" id="phone" required />
             </div>
-            <div>
-              <label for="message">შეტყობინება</label>
-              <input type="text" name="" id="message" required />
+            <div class="form-row">
+              <label for="user-message">შეტყობინება</label>
+              <textarea
+                name="message"
+                id="user-message"
+                cols="30"
+                rows="10"
+              ></textarea>
             </div>
-            <button type="submit">sub</button>
+            <div class="button">
+              <button type="submit">გაგზავნა</button>
+            </div>
           </form>
         </div>
       </div>

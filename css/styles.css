@@ -18,11 +18,15 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  min-height: 800px;
 }
 .contact {
-  width: 500px;
+  width: 600px;
   height: 600px;
-  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
 }
 .contact h2 {
   font-size: 32px;
@@ -37,21 +41,79 @@ body {
 .contact a {
   color: #ffffff;
 }
-/* .circle {
-  position: relative;
-  width: 100px;
-}
-.icon {
-  position: absolute;
-  width: 50px;
-} */
+
 .map {
   width: 500px;
   height: 300px;
   background-color: wheat;
 }
+.last-contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.last-contact a {
+  font-size: 22px;
+  font-family: helvetica-1;
+}
+.box {
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box img {
+  max-width: 26px;
+}
+
 .information {
-  width: 500px;
+  width: 600px;
   height: 600px;
-  background-color: red;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+label {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: helvetica-2;
+}
+.form-row input {
+  background-color: #0a22f4;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-bottom: 1px solid rgb(76, 76, 219);
+}
+.form-row textarea {
+  background-color: #0a22f4;
+  border: none;
+  border-bottom: 1px solid rgb(76, 76, 219);
+  padding: 10px;
+  outline: none;
+  resize: none;
+  max-width: 463px;
+}
+
+button {
+  background-color: #ffffff;
+  color: black;
+  width: 151px;
+  height: 55px;
+  border-radius: 28px;
+  border: none;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
 }

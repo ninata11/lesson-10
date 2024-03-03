@@ -10,7 +10,7 @@
   </head>
   <body>
     <section>
-      <div class="divebi">
+      <div class="container">
         <div class="contact">
           <h2>კონტაქტი</h2>
           <p>
@@ -24,7 +24,27 @@
           <a href="tel:+995 555 444 333"> +995 555 444 333</a>
           <a href="mailto:example@gmail.com"> example@gmail.com</a>
         </div>
-        <div class="information"></div>
+        <div class="information">
+          <form action="#">
+            <div>
+              <label for="user-info">სახელი,გვარი</label>
+              <input type="text" name="" id="user-info" required />
+            </div>
+            <div>
+              <label for="user-mail">ელ.ფოსტა</label>
+              <input type="email" name="" id="user-mail" required />
+            </div>
+            <div>
+              <label for="phone">ტელეფონის ნომერი</label>
+              <input type="tel" name="" id="phone" required />
+            </div>
+            <div>
+              <label for="message">შეტყობინება</label>
+              <input type="text" name="" id="message" required />
+            </div>
+            <button type="submit">sub</button>
+          </form>
+        </div>
       </div>
     </section>
   </body>

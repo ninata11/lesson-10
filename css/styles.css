@@ -8,14 +8,16 @@
 }
 body {
   background-color: #0a22f4;
+  height: 100%;
 }
-.divebi {
+.container {
   max-width: 1920px;
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: center;
-  gap: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .contact {
   width: 500px;

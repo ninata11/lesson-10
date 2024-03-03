@@ -1,0 +1,31 @@
+@font-face {
+  font-family: helvetica-1;
+  src: url(../fonts/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf);
+}
+@font-face {
+  font-family: helvetica-2;
+  src: url(../fonts/HELVETICANEUELTGEO-45LIGHTS.ttf);
+}
+body {
+  background-color: #0a22f4;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+.contact {
+  width: 500px;
+  height: 600px;
+}
+.contact h2 {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: helvetica-1;
+}
+.contact p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: helvetica-2;
+}
+.contact a {
+  color: #ffffff;
+}

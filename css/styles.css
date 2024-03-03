@@ -8,13 +8,19 @@
 }
 body {
   background-color: #0a22f4;
+}
+.divebi {
   max-width: 1920px;
   width: 100%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
 }
 .contact {
   width: 500px;
   height: 600px;
+  background-color: black;
 }
 .contact h2 {
   font-size: 32px;
@@ -28,4 +34,22 @@ body {
 }
 .contact a {
   color: #ffffff;
+}
+/* .circle {
+  position: relative;
+  width: 100px;
+}
+.icon {
+  position: absolute;
+  width: 50px;
+} */
+.map {
+  width: 500px;
+  height: 300px;
+  background-color: wheat;
+}
+.information {
+  width: 500px;
+  height: 600px;
+  background-color: red;
 }

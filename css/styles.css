@@ -8,12 +8,12 @@
 }
 body {
   background-color: #0a22f4;
-  height: 100%;
-}
-.container {
+
   max-width: 1920px;
   width: 100%;
   margin: auto;
+}
+.container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -34,6 +34,7 @@ body {
   font-family: helvetica-1;
 }
 .contact p {
+  max-width: 463px;
   font-size: 16px;
   color: #ffffff;
   font-family: helvetica-2;
@@ -41,11 +42,8 @@ body {
 .contact a {
   color: #ffffff;
 }
-
 .map {
-  width: 500px;
-  height: 300px;
-  background-color: wheat;
+  border-radius: 15px;
 }
 .last-contact {
   display: flex;
@@ -116,4 +114,29 @@ button {
 .button {
   display: flex;
   justify-content: flex-end;
+}
+/* this is footer */
+.footer-container p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: helvetica-2;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.hart {
+  width: 26px;
+}
+.smartweb {
+  width: 121px;
+}
+.footer-container div {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
 }

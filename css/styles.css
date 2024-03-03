@@ -115,6 +115,14 @@ button {
   justify-content: flex-end;
 }
 /* this is footer */
+.line {
+  max-width: 1493px;
+  height: 1px;
+  background-color: rgb(76, 76, 219);
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15px;
+}
 .footer-container p {
   font-size: 16px;
   color: #ffffff;
